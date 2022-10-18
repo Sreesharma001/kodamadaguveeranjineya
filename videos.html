@@ -1,0 +1,53 @@
+<!Doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style3.css">
+        <title>video</title>
+    </head>
+    <body align="center">
+        <div class="container">
+            <div class="heading">video gallery</div>
+            <div class="video-container"></div>
+            <div class="video">
+                <video src="D:\public_list\video1.mp4"></video>
+            </div>
+            <div class="video">
+                <video src="D:\public_list\video2.mp4"></video>
+            </div>
+            <div class="video">
+                <video src="D:\public_list\video3.mp4"></video>
+            </div>
+            <div class="video">
+                <video src="D:\public_list\video4.mp4"></video>
+            </div>
+            <div class="video">
+                <video src="D:\public_list\video5.mp4"></video>
+            </div>
+            <div class="video">
+                <video src="D:\public_list\video6.mp4"></video>
+            </div>
+            <div class="video">
+                <video src="D:\public_list\video7.mp4"></video>
+            </div>
+            </div>
+        </div>
+        <script>
+            var video =document.querySelectorAll('video')
+            video.forEach(play => play.addEventListener('click', () =>{
+                play.classList.toggle('active');
+                if(play.paused){
+                    play.play();
+                }else{
+                    play.pause();
+                    play.currentTime =0;
+                }
+
+            }))
+        </script>
+ <div class="user-box">
+    <a href="D:\public_list\index.html">go back</a>
+</div>
+    </body>
+</html>

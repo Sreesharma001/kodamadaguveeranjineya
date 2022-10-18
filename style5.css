@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'josefin sans',sans-serif;
+    box-sizing: border-box;
+}
+ body{
+    margin: 0;
+    padding: 0;
+    background-image: url(C:\Users\K S SREE HARI\Videos\pic1.jpg);
+    -webkit-background-size:cover;
+    background-size:cover;
+    background-position: center center;
+    height: 1000vh;
+    background-repeat: no-repeat;
+    font-family: lato;   
+}
+.nav ul{
+    list-style: none;
+}
+.nav{
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.nav li:hover{
+    background: #ff553b;
+}
+.nav > ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    background: #f4f0f0;
+    color: rgb(12, 11, 11);
+    width: 1000px;
+    text-transform: none;
+    font-weight: 900;
+}
+.user-box a{
+   display: inline-block;
+   text-decoration: none;
+   color: #fff;
+   background: #3f51b5;
+   padding: 10px 30px;
+   font-size: 18px;
+   margin-top: 50px;
+   border-radius: 6px;
+}

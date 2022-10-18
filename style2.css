@@ -1,0 +1,39 @@
+header{
+    font-size: 24px;
+    text-align: center;
+
+}
+p{
+    font-size: 20px;
+
+}
+main{
+    margin-left: 120px;
+}
+.box{
+    display: block;
+    float: left;
+    width: 20%;
+    padding: 10px;
+    padding-left: 12px;
+}
+img{
+    width: 100%;
+    border-radius: 7px;
+}
+
+
+img:hover{
+    transform: scale(2,2);
+    transition: .3s transform;
+}
+.user-box a{ 
+    display: inline-block;
+   text-decoration: none;
+   color: #fff;
+   background: #3f51b5;
+   padding: 10px 30px;
+   font-size: 18px;
+   margin-top: 50px;
+   border-radius: 6px;
+}
