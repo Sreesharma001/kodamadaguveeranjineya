@@ -1,0 +1,29 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background: rgb(255, 220, 220);
+    font-family: 'poppins',sans-serif;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.cover{
+    width: 500px;
+    height: 500px;
+  
+   margin-top: 50px;
+   display: flex;
+}
+.box{
+    margin: 10px;
+    width: 800px;
+    height: 800px;
+    box-shadow: -1px 0 10px #0000;
+}
+img{
+   width: 300px;
+    height: 400px;
+
+}
